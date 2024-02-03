@@ -10,3 +10,4 @@ def readfile(filename):
     f.close()
 
     return result
+ 
