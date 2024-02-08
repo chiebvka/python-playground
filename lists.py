@@ -97,3 +97,97 @@ print(places)
 places.sort()
 places.reverse()
 print(places)
+
+
+magicians = ['alice', 'david', 'tony', 'tony']
+for magician in magicians:
+    print(f"Hey {magician.title()}, what agreat show that was")
+    print(f"I can't wait to see what {magician.title()} has in store for us today\n")
+
+print('thank you all for a wonderful show')
+
+
+pizzas = ['pepperoni', 'cheese', 'bacon', 'hawaiian', 'boston']
+
+for pizza in pizzas:
+    print(f"i like {pizza} pizzas")
+
+print("Damn i really love pizza")
+
+
+animals = ['dog', 'cat', 'horse', 'parrot', 'goldfish']
+for animal in animals:
+    print(f"A {animal} would make a reallly lovely pet")
+
+print("Any of these animlas would make a great pet")
+
+
+for number in range(1, 23):
+    print(f"Here is number {number}")
+
+numbers =list(range(1,11))
+print(numbers)
+
+evenNumbers = list(range(2,21,2))
+print(evenNumbers)
+
+
+squares = []
+
+for square in range(1, 11):
+    value = square** 2
+    squares.append(value)
+
+print(squares)
+
+raised = []
+
+for raises in range(2, 21):    
+    raised.append(raises ** 2)
+
+print(raised)
+
+## List comprehension 
+shore = [value**2 for value in range(1, 6)]
+print(shore)
+
+
+twenty = list(range(1,21))
+print(twenty)
+
+twentyOne = []
+for twenty in range(1,21):
+    print(twenty)
+
+
+millions = list(range(1, 1000001))
+
+# for million in millions:
+#     print(million)
+
+# print(millions)
+print(min(millions))
+print(max(millions))
+print(sum(millions))
+max(millions)
+
+
+oddMillions = list(range(1, 21, 2))
+print(oddMillions)
+
+threes = []
+for three in range(3, 31, 3):
+    threes.append(three)
+
+print(threes)
+
+cubes = []
+
+for cube in range(1, 11):
+    cubes.append(cube ** 3)
+
+print(cubes)
+
+
+cubic = [cube**3 for cube in range(1,11)]
+print(cubic)
